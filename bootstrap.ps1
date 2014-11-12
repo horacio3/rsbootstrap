@@ -23,7 +23,7 @@ cd "C:\Program Files\WindowsPowerShell\Modules"
 
 # 1 #
 ### [ Edit branch and git user in URI ] ###
-Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch $($d.provbr) $((("https://", $d.git_Oauthtoken, "@github.com" -join ''), $($d.git_username), $("rsCommon" , ".git" -join '')) -join '/')"
+Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch $($d.provBr) $((("https://", $d.git_Oauthtoken, "@github.com" -join ''), $($d.git_username), $("rsCommon" , ".git" -join '')) -join '/')"
 ###########################################
 
 # 2 #
@@ -43,7 +43,7 @@ Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --bran
 
 # 4 #
 ### [ Edit branch and git user in URI ] ###
-Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch $($d.provbr $((("https://", $d.git_Oauthtoken, "@github.com" -join ''), $($d.git_username), $("rsProvisioning" , ".git" -join '')) -join '/')"
+Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch $($d.provBr) $((("https://", $d.git_Oauthtoken, "@github.com" -join ''), $($d.git_username), $("rsProvisioning" , ".git" -join '')) -join '/')"
 ###########################################
 
 Stop-Service Browser
