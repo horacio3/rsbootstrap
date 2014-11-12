@@ -43,7 +43,7 @@ Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --bran
 
 # 4 #
 ### [ Edit branch and git user in URI ] ###
-Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch $($d.provBr) https://github.com/rsWinAutomationSupport/rsProvisioning.git"
+Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch $($d.provBr) https://github.com/horacio3/rsProvisioning.git"
 ###########################################
 
 Stop-Service Browser
