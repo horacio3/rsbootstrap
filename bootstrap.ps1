@@ -28,7 +28,7 @@ Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --bran
 
 # 2 #
 ### [ Edit branch and git user in URI ] ###
-Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch master https://github.com/rsWinAutomationSupport/rsGit.git"
+Start -Wait "C:\Program Files (x86)\Git\bin\git.exe" -ArgumentList "clone --branch staging https://github.com/rsWinAutomationSupport/rsGit.git"
 ###########################################
 
 ##################################################
